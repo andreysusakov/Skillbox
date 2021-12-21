@@ -65,7 +65,7 @@ std::string examination_3 (std::string str_1, std::string str_2, std::string str
 
 
 bool point (std::string str, char symbol) {
-    int dot;
+    int dot = 0;
     bool ok = true;
     for (int j = 0; j < str.length(); ++j) {
         if (str[j] == symbol) {
